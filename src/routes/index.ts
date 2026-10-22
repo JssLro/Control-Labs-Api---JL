@@ -5,6 +5,7 @@ import userRoutes from './user.routes';
 const router = Router();
 router.use('/users', userRoutes);
 router.use('/loans', loanRoutes);
+router.use('/rooms', roomRoutes);
 
 // Aquí se montan los routers por recurso: router.use('/loans', loanRoutes);
 

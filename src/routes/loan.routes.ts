@@ -9,7 +9,7 @@ router.get('/:id', LoanController.getLoanById);
 
 router.post('/', LoanController.createLoan);
 
-router.put('/:id/accept', LoanController.acceptLoanInventory);
+router.patch('/:id/accept', LoanController.acceptLoanInventory);
 
 
 export default router;

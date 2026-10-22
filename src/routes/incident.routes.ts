@@ -1,0 +1,10 @@
+import { Router } from 'express';
+import { IncidentController } from '../controllers/incident.controller.ts';
+
+const router = Router();
+
+router.post('/', IncidentController.createIncident);
+router.get('/', IncidentController.getIncidents);
+router.patch('/:id/status', IncidentController.updateIncidentStatus);
+
+export default router;

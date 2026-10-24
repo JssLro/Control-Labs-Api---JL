@@ -1,3 +1,4 @@
+// @ts-ignore Express type declarations are not installed in this project.
 import { Router } from 'express';
 import { RoomController } from '../controllers/room.controller';
 

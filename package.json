@@ -2,7 +2,7 @@
   "name": "control-labs-api",
   "version": "1.0.0",
   "description": "API REST de ControlLabs (SENA ADSO) - Sesión 1: Express.js, Arquitectura Limpia y variables .env",
-  "main": "server.js",
+  "main": "dist/server.js",
   "scripts": {
     "dev": "tsx watch src/server.ts",
     "build": "tsc",
